@@ -87,7 +87,7 @@ if (bgMusicURL) {
 <audio src="${bgMusicURL}" ${
     bgMusicControls ? "controls" : ""
   } autoplay loop>    
-<p>If you are reading this, it is because your browser does not support the audio element.</p>
+<p>If you are reading this, it is because your browser does not support the audio element.Sorry about it <3</p>
 </audio>
 `;
 }
@@ -395,7 +395,7 @@ gl.vertexAttribPointer(
   0 // how many bytes inside the buffer to start from
 );
 
-//Set uniform handle
+//Set uniform handle 
 var timeHandle = getUniformLocation(program, "time");
 var widthHandle = getUniformLocation(program, "width");
 var heightHandle = getUniformLocation(program, "height");
